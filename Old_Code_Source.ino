@@ -1,4 +1,3 @@
-
 #include <Servo.h>
 #include <Ultrasonic.h>
  
@@ -51,4 +50,3 @@ void loop()
   RodaDir.write(90+Vel);
   RodaEsq.write(90-Vel);
   }
-  
