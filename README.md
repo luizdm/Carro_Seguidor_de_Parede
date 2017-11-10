@@ -9,7 +9,7 @@ Dupla: Miltemberg Cesar Serpa e Luiz Sérgio Rocha Silva
 Introdução
 
 Em nosso projeto utilizamos dois sensores, um ultrassônico e o outro infravermelho, para fazer a medição da distância do carro até um determinado obstáculo. No caso, instalamos o sensor ultrassônico na lateral do carro e o infravermelho na ponta dianteira, como mostra a figura:
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/CARRO1.jpg?raw=true)
 A partir da captação da distância do carro até o obstáculo, conseguimos controlar a trajetória do carro fazendo com que ele mantenha uma distância desejada. No caso, faremos o carro percorrer um trajeto paralelo a uma parede, sempre mantendo uma distância determinada. Para fazer com que o carro mantenha a distância desejada, controlamos a velocidade das rodas traseiras, assim ele mantém a trajetória.
 
 Utilizamos Sensor ultrassônico, Arduino como controlador e os motores como atuadores. Para a montagem do carro, utilizamos uma plaquinha de madeira, duas rodas, uma roda boba na dianteira do carro, fios para a conexão, protoboard e parafusos.
