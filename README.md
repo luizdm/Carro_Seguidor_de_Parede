@@ -36,7 +36,7 @@ Tem o mesmo princípio de funcionamento do sensor ultrassônico, porém ao invé
 Faz com que as rodas traseiras girem, assim movimentando o carro. A velocidade e sentido das rodas é controlada pelo arduino.
 
 Diagrama de Blocos
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/DIAGRAMACARRO.PNG?raw=true)
 No sistema do nosso projeto, a variável de controle é a velocidade das rodas, fazendo assim o carro manter a direção e distância da parede. A saída do sistema é realimentada pelos sensores, com isso alterando a velocidade das rodas dependendo da distância do carro até a parede. O sistema tende a seguir a referência determinada na programação, ou seja, tende a manter a distância desejada. Com as características citadas a cima, podemos concluir que nosso sistema é de malha fechada, seguindo o diagrama abaixo:
 
 Controlador Sistema
