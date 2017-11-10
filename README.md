@@ -18,19 +18,21 @@ Fundamentação Teórica
 Em nosso projeto, utilizamos alguns componentes para fazer com que ele funcione da maneira desejada, são eles: Arduino UNO, Sensor Ultrassônico, Sensor infravermelho, Motor de rotação e componentes elétricos e eletrônicos.
 
 -Arduino
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/ARDUINO.jpg?raw=true)
+
 
 Utilizado para fazer o controle, através de programação, dos sensores e dos motores. Com ele regulamos a velocidade de rotação das rodas e a distância do carro até a parede.
 
 -Sensor Ultrassônico
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/SENSOR.jpg?raw=true)
 O sensor ultrassônico envia sinais de ultrassom em uma frequência que não conseguimos ouvir. Quando o sinal encontra um obstáculo, ele rebate e retorna ao sensor. O tempo que o sinal leva para ir até o obstáculo e retornar é a base para podermos saber a distância entre o carro e o determinado objeto.
 
 -Sensor Infravermelho
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/SENSORINFRA.jpg?raw=true)
 Tem o mesmo princípio de funcionamento do sensor ultrassônico, porém ao invés de ser enviado um sinal ultrassom, é enviado infravermelho. Com ele também conseguimos saber a distância.
 
 -Motor de Rotação
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/MOTOR.jpg?raw=true)
 Faz com que as rodas traseiras girem, assim movimentando o carro. A velocidade e sentido das rodas é controlada pelo arduino.
 
 Diagrama de Blocos
@@ -44,11 +46,12 @@ Distância Velocidade das rodas
 Dispositivo de Medida
 
 Programação
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/CODE1.jpg?raw=true)
 
 Através da programação do arduino, conseguimos definir os parâmetros para o nosso projeto, ou seja, determinamos a distância desejada e a velocidade das rodas traseiras.
 
 Os pinos “trigger” e “echo”, são os responsáveis pelo envio e recepção dos sinais de ultrasson, fazendo com que determine a distância do carro ao obstáculo. Determinamos algumas variáveis necessárias, como por exemplo: velocidade e ajuste.
-
+![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/image.png?raw=true)
 Nessa parte do programa, é feita a leitura das informações que os sensores estão transmitindo, fazendo com que possamos determinar as condições para o motor girar as rodas em determinada velocidade.
 
 Conclusão
