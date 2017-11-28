@@ -58,6 +58,14 @@ Melhorias
 
 Com o aprendizado da segunda parte da matéria, PDI, podemos fazer uma otimização no nosso carro seguidor de parede. Nessa melhoria, o carro atinge o "SP" com mais eficiência, ou seja, com mais velocidade e com menor "over shoot".
 
+PID ( Proporcional Integral Derivativo )
+
+A implementação do PID faz com que o erro seja minimizado, zerado e conseguido com uma maior eficiência e velocidade. A ação de cada item do PID, faz com que o erro seja praticamente zero. Se bem aplicado, o sistema fica totalmente otimizado.
+
+Implementação do PID no projeto
+
+A implementação do PID no sistema do nosso carro seguidor de parede se deu através de muitos testes nos valores de cada parte do PID. Com esses testes, notamos que para uma melhoria na eficiência tivemos que praticamente zerar a componente integrativa e derivativa. Também notamos que não poderíamos deixar a componente proporcional muito grande, pois o carro acabaria rodando e não seguindo a parede. 
+
 Conclusão
 
 Em nosso projeto conseguimos fazer o controle de um carro através do arduino, de motor e sensores, assim o fizemos percorrer um trajeto paralelo à parede e mantendo uma distância determinada. O arduino, podemos chamar de “cérebro” do sistema, pois, através de sua programação, podemos definir parâmetros desejados por nós, como a velocidade das rodas e a distância que queremos que ele mantenha da parece.
