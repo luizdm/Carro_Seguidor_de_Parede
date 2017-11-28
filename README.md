@@ -54,6 +54,10 @@ Os pinos “trigger” e “echo”, são os responsáveis pelo envio e recepç�
 ![Alt Text](https://github.com/luizdm/Carro_Seguidor_de_Parede/blob/master/imagens/image.png?raw=true)
 Nessa parte do programa, é feita a leitura das informações que os sensores estão transmitindo, fazendo com que possamos determinar as condições para o motor girar as rodas em determinada velocidade.
 
+Melhorias
+
+Com o aprendizado da segunda parte da matéria, PDI, podemos fazer uma otimização no nosso carro seguidor de parede. Nessa melhoria, o carro atinge o "SP" com mais eficiência, ou seja, com mais velocidade e com menor "over shoot".
+
 Conclusão
 
 Em nosso projeto conseguimos fazer o controle de um carro através do arduino, de motor e sensores, assim o fizemos percorrer um trajeto paralelo à parede e mantendo uma distância determinada. O arduino, podemos chamar de “cérebro” do sistema, pois, através de sua programação, podemos definir parâmetros desejados por nós, como a velocidade das rodas e a distância que queremos que ele mantenha da parece.
